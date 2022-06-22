@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, menu {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+}
+
+/* CSS HEADER */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orange {
+    background-color: orange;
+}
+
+
+/* DEBUG */
+
+header div {
+    border: 3px solid red;
+    width: 1920px;
+    margin: 0 auto;
+}
+
