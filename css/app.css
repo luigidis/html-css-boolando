@@ -16,22 +16,73 @@ li {
     display: inline;
 }
 
+/* DEBUG */
+
+/* header div {
+    border: 3px solid red;
+} */
+
+/* figure {
+    border: 3px solid blue;
+} */
+
+.container-1 {
+    border: 5px solid black;
+}
+
+section div {
+    padding: 50px;
+    border: 5px solid red;
+}
+
 /* CSS HEADER */
 .container {
     display: flex;
     justify-content: space-between;
+    max-height: 73px;
 }
-
-.orange {
-    background-color: orange;
-}
-
-
-/* DEBUG */
 
 header div {
-    border: 3px solid red;
     width: 1920px;
     margin: 0 auto;
 }
 
+img {
+    max-height: 100%;
+}
+
+.orange {
+    background-color: #FF6900;
+}
+
+#list-1 li {
+    padding-right: 10px;
+    line-height: 65px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+/* #list-1 {
+    padding-left: 15px;
+} */
+
+#list-2 li {
+    padding-right: 10px;
+    line-height: 65px;
+    font-size: 18px;
+}
+
+#list-2 li a {
+    color: white
+}
+
+/* CSS DELL'HEADER */
+
+.container-1 {
+    display: flex;
+    width: 1920px;  
+    margin: 0 auto;
+    /* justify-content: calc(100% / 3); */
+    justify-content: space-between;
+}
