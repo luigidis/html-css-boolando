@@ -26,9 +26,9 @@ li {
     border: 3px solid blue;
 } */
 
-.container-1 {
+/* .container-1 {
     border: 5px solid black;
-}
+} */
 
 /* section div {
     padding: 50px;
@@ -93,6 +93,10 @@ img {
     position: relative;
 }
 
+/* .card__img {
+    max-height: 685px;
+} */
+
 .container-1 .card .card__heart {
     position: absolute;
     top: 10px;
@@ -144,3 +148,4 @@ img {
     background-color: green;
     padding: 5px;
 }
+
