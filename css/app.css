@@ -84,7 +84,7 @@ img {
     display: flex;
     max-width: 1430px;  
     margin: 0 auto;
-    justify-content: calc(100% / 3);
+    flex-basis: calc(100% / 3);
     gap: 7px;
    
 }
@@ -149,3 +149,6 @@ img {
     padding: 5px;
 }
 
+.margin-50 {
+    margin-top: 50px;
+}
