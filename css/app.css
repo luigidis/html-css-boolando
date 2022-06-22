@@ -43,7 +43,7 @@ li {
 }
 
 header div {
-    width: 1920px;
+    width: 1430px;
     margin: 0 auto;
 }
 
@@ -82,7 +82,7 @@ img {
 
 .container-1 {
     display: flex;
-    max-width: 1920px;  
+    max-width: 1430px;  
     margin: 0 auto;
     justify-content: calc(100% / 3);
     gap: 7px;
@@ -93,16 +93,54 @@ img {
     position: relative;
 }
 
-.container-1 .card .card__sale {
+.container-1 .card .card__heart {
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
     background-color: white;
     color: black;
     width: 50px;
     height: 50px;
     text-align: center;
-    vertical-align: middle;
+    line-height: 50px;
 }
 
-.card__sale i
+#text-1 {
+    font-size: 12px;
+}
+
+#text-2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#text-3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#text-3 span {
+    font-size: 10px;
+    font-weight: normal;
+    text-decoration: line-through;
+    color: red;
+}
+
+.container-1 .card .card__sale {
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    gap: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+.card__sale_p1 {
+    background-color: red;
+    padding: 5px;
+}
+
+.card__sale_p2 {
+    background-color: green;
+    padding: 5px;
+}
