@@ -107,6 +107,7 @@ img {
     height: 50px;
     text-align: center;
     line-height: 50px;
+    z-index: 99;
 }
 
 #text-1 {
@@ -137,6 +138,7 @@ img {
     gap: 3px;
     color: white;
     font-weight: bold;
+    z-index: 99;
 }
 
 .card__sale_p1 {
@@ -190,3 +192,42 @@ footer {
     padding-right: 25px;
     padding-bottom: 15px;
 }
+
+
+/* PROVA PER L'HOVER SULLE CARD */
+
+/* .card:hover .card__img {
+    background-image: url(../images/1b.webp);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+
+/* .card::after {
+    content: url(../images/1b.webp);
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+} */
+
+.card__img {
+    position: relative;
+}
+
+.card__img .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.card:hover .img-top {
+    display: inline;
+}
+
