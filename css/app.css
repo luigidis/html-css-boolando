@@ -233,5 +233,9 @@ footer {
     display: inline;
 }
 
+.text-footer-4 ul li {
+    padding-left: 5px;
+    font-size: 16px;
+}
 
 
